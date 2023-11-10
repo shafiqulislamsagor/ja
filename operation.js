@@ -12,3 +12,10 @@ var tkKhoroch = 70 ;
 var ferotAslo = (tkDilo - tkKhoroch) ;
 
 console.log(ferotAslo) ;
+// Multiplication JS
+var apple1pic = 15 ;
+var appleSonkha = 7 ;
+
+var totalPrice = (apple1pic * appleSonkha) ;
+
+console.log(totalPrice) ;
