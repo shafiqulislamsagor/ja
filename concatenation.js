@@ -24,3 +24,15 @@ console.log(point1)
 var allItems = bazar + point1 ;
 console.log(allItems);
 
+// 6th practice :
+carName ="volvo";
+var carName;
+
+console.log(carName)
+
+// 7th practice:
+
+let carNaMe;
+carNaMe = "Hello";
+console.log(carNaMe)
+
