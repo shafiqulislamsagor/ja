@@ -36,3 +36,20 @@ let carNaMe;
 carNaMe = "Hello";
 console.log(carNaMe)
 
+// 8th practice:
+first = "Oppo";
+second = "Realme";
+third = "redme" ;
+forth = "Poco"
+let deviceName ={first:"Oppo",second:"Realme",third:"redmi",forth:"Poco"};
+console.log(typeof deviceName);
+
+// 9th practice:
+x = 52 ;
+y = 30 ;
+z = 20 ;
+
+let design = {x:52,y:30,z:20};
+console.log(typeof x)
+
+
