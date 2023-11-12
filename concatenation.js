@@ -56,8 +56,17 @@ console.log(typeof x)
 function sleep(name,time){
     var point = name + " " + "wake up at" + " " + time;
     console.log(point);
+    return 5;
+    console.log("this is return ar porer parts no support")
 }
 sleep("Sagor","10 am");
 sleep("Mustakim","7 am")
+
+function temper(a,b){
+    return a * b
+}
+let gunfol = temper(5 , 10)
+console.log(gunfol);
+
 
 
