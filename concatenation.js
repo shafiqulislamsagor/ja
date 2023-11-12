@@ -52,4 +52,12 @@ z = 20 ;
 let design = {x:52,y:30,z:20};
 console.log(typeof x)
 
+// function practice:
+function sleep(name,time){
+    var point = name + " " + "wake up at" + " " + time;
+    console.log(point);
+}
+sleep("Sagor","10 am");
+sleep("Mustakim","7 am")
+
 
