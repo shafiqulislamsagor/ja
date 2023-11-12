@@ -68,5 +68,30 @@ function temper(a,b){
 let gunfol = temper(5 , 10)
 console.log(gunfol);
 
+// Object practice:
+const car = {
+    name:"fiat",
+    model:500,
+    weight: "850kg",
+    color: "white",
+    start: function(){
+        this.drive();
+        console.log("car is started now.")
+    },
+    drive: function(){
+        console.log("car is driving with me.")
+    },
+    stop: function(){
+        return this.start() + console.log("It is success")
+    }
+};
+
+console.log(car);
+console.log(car.start);
+car.start();
+car.stop();
+
+
+
 
 
