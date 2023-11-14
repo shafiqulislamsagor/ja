@@ -9,4 +9,14 @@ console.log(newM)
 
 let y = 123456;
 let srts = y.toString();
-console.log(srts)
+console.log(srts);
+
+let h =(123).toString();
+console.log(h);
+console.log(typeof(h));
+
+let ex = 2.3564;
+let Ex = ex.toExponential(2);
+console.log(Ex)
+
+
