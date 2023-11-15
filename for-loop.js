@@ -11,3 +11,25 @@ some.sort();
 console.log(some);
 some.reverse();
 console.log(some);
+
+// compare function:
+const point = [103,1,5,7,8,4,50,40,20,80,65,100]
+point.sort(
+    function(a,b){
+        return a - b 
+    }
+)
+
+console.log(point)
+// ans:   1,   4,  5,  7,  8, 20,  40, 50, 65, 80, 100, 103
+
+const gpa = [1.22,5.00,1.58,4.50,3.22,4.00,3.50,3.77];
+gpa.sort(
+    function(a,b){
+        return b - a 
+    }
+)
+
+console.log(gpa);
+//ans : 5, 4.5, 4, 3.77, 3.5, 3.22, 1.58, 1.22
+
