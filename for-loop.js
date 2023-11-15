@@ -33,6 +33,12 @@ gpa.sort(
 console.log(gpa);
 //ans : 5, 4.5, 4, 3.77, 3.5, 3.22, 1.58, 1.22
 
+console.log(gpa[0]);
+console.log(gpa[gpa.length - 1]);
+
+// ans: first and last number ber korar niyom....
+
+
 const dif = [10,50,30,55,42,48,52,46,21];
 dif.sort(
     function(a,b){
