@@ -33,3 +33,11 @@ gpa.sort(
 console.log(gpa);
 //ans : 5, 4.5, 4, 3.77, 3.5, 3.22, 1.58, 1.22
 
+const dif = [10,50,30,55,42,48,52,46,21];
+dif.sort(
+    function(a,b){
+        return 0.5 -Math.random();
+    }
+)
+console.log(dif);
+// ans : random bhave sajano thakbe number gula....
