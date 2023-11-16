@@ -37,7 +37,7 @@ rollNumber.sort(
 console.log(rollNumber);
 //Answer:: [ 52, 42, 41, 35, 32, 26, 25, 22, 1 ];
 
-//Practice: Kono year leap year kina ta ber korte pari ki vhabe ?
+//Practice-4: Kono year leap year kina ta ber korte pari ki vhabe ?
 function isLeapYear(year){
     if((year % 400 === 0) || ((year % 4 === 0) && (year % 100 !== 0))) {
         console.log(`${year} is a leap year ...!`);
@@ -56,3 +56,26 @@ function tryAgain(year){
 }
 
 tryAgain(2032);
+
+//Practice-5: Kona sentence a kotogulo vowel ase ta nirnoy kora jai ki vhabe ?
+const vowels = [ "A" , "a" , "e" , "E", "O", "o","i","I","u","U"]; // je gulo k count korte chai...!
+
+
+// akti function create korte hobe...!
+function countVowels(sentence){
+
+    let count = 0 ; // count korar jonno variable..
+
+    const letters = Array.from(sentence); // string k vange array create korar jonno Array.fron use korte hoi...!
+    
+    //loop kore jawyar jonno forEach use korte hoi...!
+    letters.forEach(function(value,index,array){
+        // loop kore jawyar somoi value ta ase kina ta dekhar jonno includes use kora hoi...! jodi thake tahole seta value te save hoi..!
+        if(vowels.includes(value)){ 
+            count++
+        }
+    });
+    return count;
+}
+
+console.log(countVowels("Write error-free code with sophisticated editors. Whether you wish to beautify your code or want to practice what you learn, the Coding Ground is your go-to."))
