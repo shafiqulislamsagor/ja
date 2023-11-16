@@ -59,4 +59,21 @@ function myFunction (total,value,index,array){
 const funtion = itarat.reduce(myFunction);
 
 console.log(funtion);
-// function reduce : a , b k jog kore....
+// method reduce : a , b k jog kore....
+
+const reduce_ = [20,30,40,50,60,70,80,90,100];
+function funtn(tootal,vallue){
+    return tootal + vallue;
+}
+const newReduce = reduce_.reduce(funtn,5)
+console.log(newReduce);
+
+// every method:
+
+const host = [10,11,12,13,14,15];
+function host_function(total,value,array){
+    return value < 20;
+}
+const hoster = host.every(host_function);
+console.log(hoster);
+
