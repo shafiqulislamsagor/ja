@@ -47,3 +47,16 @@ dif.sort(
 )
 console.log(dif);
 // ans : random bhave sajano thakbe number gula....
+
+// array itaration
+
+const itarat = [50,25,15,82,18,55]
+function myFunction (total,value,index,array){
+    console.log(total);
+    console.log("----------");
+    return total + value;
+}
+const funtion = itarat.reduce(myFunction);
+
+console.log(funtion);
+// function reduce : a , b k jog kore....
