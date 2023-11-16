@@ -79,3 +79,27 @@ function countVowels(sentence){
 }
 
 console.log(countVowels("Write error-free code with sophisticated editors. Whether you wish to beautify your code or want to practice what you learn, the Coding Ground is your go-to."))
+// Answer:: 52
+
+//Practice-6: Kono array theke dupkicates namber gulo ki vhabe ber kore ante pari ..?
+
+const point = [1,2,4,5,1,7,8,2,3,6,7,9]
+
+// protita number k call kore {filter}
+const duplicate = point.filter(
+    function(value,index,array){
+        return array.indexOf(value) !== index // jodi 1st index ar value next index ar value ar sthe mile tahole take save koro...
+    }
+);
+
+console.log(duplicate);
+
+// kono array theke unique number gulo ki vhabe ber kore ante pari...?
+
+const unique = point.filter(
+    function(value,index,array){
+        return array.indexOf(value) === index
+    }
+);
+
+console.log(unique);
