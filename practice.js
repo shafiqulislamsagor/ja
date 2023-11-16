@@ -36,3 +36,23 @@ rollNumber.sort(
 
 console.log(rollNumber);
 //Answer:: [ 52, 42, 41, 35, 32, 26, 25, 22, 1 ];
+
+//Practice: Kono year leap year kina ta ber korte pari ki vhabe ?
+function isLeapYear(year){
+    if((year % 400 === 0) || ((year % 4 === 0) && (year % 100 !== 0))) {
+        console.log(`${year} is a leap year ...!`);
+    } else {
+        console.log(`${year} is not a leap year ...!`);
+    }
+}
+
+isLeapYear(2025);
+
+function tryAgain(year){
+    if (year % 400 === 0 || year % 4 === 0 && year % 100 !== 0)
+    console.log(`${year} is a leap year ...`);
+    else 
+    console.log(`${year} isn't a leap year ...!`);
+}
+
+tryAgain(2032);
