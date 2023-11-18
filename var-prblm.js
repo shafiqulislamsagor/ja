@@ -1,4 +1,6 @@
-var i = 20;
+var i = 20; 
+
+// var global scope ar jonno prblm kor....
 
 for(var i = 0 ; i < 14 ; i++){
     console.log(i);
