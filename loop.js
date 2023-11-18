@@ -21,4 +21,18 @@ for(; ; i++){
 
 console.log("i=0 and condition na dilew avhabe kora jai..")
 
+// object loop kmne kore:
 
+const person = {
+    fname:"Sagor",
+    lname:"Habiba",
+    statusr:"Married"
+}
+
+for(let x in person){
+    console.log(x) ;// fname,lname and statusr 
+
+    // console.log j kono ekta k comment kore check korun:
+
+    console.log(person[x]); //sagor , habiba and married
+}
