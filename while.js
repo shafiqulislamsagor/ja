@@ -2,7 +2,7 @@ let i = 0;
 text ="" ;
 
 while(i < 10){
-    text +="The number is " + i;
+    text +="The number is " + i + "<br>";
     i++ ;
 
 }
