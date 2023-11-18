@@ -21,4 +21,4 @@ for(; ; i++){
 
 console.log("i=0 and condition na dilew avhabe kora jai..")
 
-// while loops
+
