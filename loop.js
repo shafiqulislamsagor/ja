@@ -36,3 +36,18 @@ for(let x in person){
 
     console.log(person[x]); //sagor , habiba and married
 }
+
+// number array ar jonno:
+
+const numbers = [20,220,2,5,25,4,65,85];
+
+for(let m in numbers){
+    console.log(m);
+    console.log(numbers[m]);
+}
+
+const s = "Habiba My Life..."
+
+for(let m of s){ //"of holo array ar jonno and in holo object ar jonno"
+    console.log(m);
+}

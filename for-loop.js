@@ -77,3 +77,4 @@ function host_function(total,value,array){
 const hoster = host.every(host_function);
 console.log(hoster);
 
+
