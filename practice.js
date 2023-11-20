@@ -103,3 +103,19 @@ const unique = point.filter(
 );
 
 console.log(unique);
+
+// this keyword and important code:
+
+
+const persons = {
+    fullName : function(){
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+const personsfull = {
+    firstName : "Shafiqul Islam",
+    lastName : "Sagor"
+}
+
+console.log(persons.fullName.call(personsfull))
