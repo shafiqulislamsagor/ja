@@ -118,4 +118,4 @@ const personsfull = {
     lastName : "Sagor"
 }
 
-console.log(persons.fullName.call(personsfull))
+console.log(persons.fullName.call(personsfull));

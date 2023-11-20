@@ -2,6 +2,14 @@ function time(){
     document.getElementById('is').innerHTML = Date();
 }
 
+// function k function arrow te use ..>
+let hello = "";
+
+hello = () => {
+    return "Hello World";
+}
+document.getElementById("arrow").innerHTML = hello();
+// arrow parts end..>
 x = 5;
 
 console.log(x);
