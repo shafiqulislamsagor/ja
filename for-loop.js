@@ -5,6 +5,14 @@ for (i = 0 ; i < couple.length ; i++){
     console.log(couple[i]);
     console.log(typeof(couple[i]));
 }
+var x = 10 ;
+var y = 20 ;
+var z = 15 ;
+
+if (x > y){
+    console.log("x holo y ar theke boro");
+}
+console.log(" y boro");
 // array 
 const some = ["name","age","year","class","roll"];
 some.sort();
