@@ -29,3 +29,28 @@ const person2 = new personAll("Habiba",17);
 
 person1.play("Pro Player");
 person2.play("Boot Player");
+// Initiate counter
+let counter = 0 ;
+
+// Function to increment counter
+function add(){
+    counter += 1 ;
+}
+
+// call add() 3 times
+add();
+add();
+add();
+add();
+
+console.log(counter);
+
+counter ++ ;
+
+console.log(counter);
+
+// and amnew kora jai
+
+counter = 10 ;
+
+console.log(counter);
